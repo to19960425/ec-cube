@@ -7,3 +7,4 @@ services:
       GROUP_ID: ${GID:-}
     volumes:
       - ".:/var/www/html:cached"
+      - "../ec-cube_plugin:/var/www/ec-cube_plugin"
